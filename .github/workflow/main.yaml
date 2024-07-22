@@ -6,7 +6,7 @@ jobs:
   testing_github:
     runs-on: ubuntu-latest
     steps:
-        - name: Hello
-          run: echo "Hello, Github Actions"
-        - name: Display repo name 
-          run: echo "this workflow is running in ${{ github.repository }}" 
+      - name: Hello
+        run: echo "Hello, Github Actions"
+      - name: Display repo name 
+        run: echo "this workflow is running in ${{ github.repository }}"
